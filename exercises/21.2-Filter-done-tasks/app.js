@@ -10,3 +10,17 @@ let tasks = [
 ];
 
 //your code here
+
+
+let filtrado = tasks.filter(function(fil){
+    
+        //console.log(fil);
+        // console.log(fil.done);
+         if (fil.done === true){
+             return fil;
+
+         }
+   
+
+});
+console.log(filtrado);

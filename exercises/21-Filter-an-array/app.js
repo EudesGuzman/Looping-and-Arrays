@@ -2,4 +2,12 @@ let allNames = ["Romario","Boby","Roosevelt","Emiliy", "Michael", "Greta", "Patr
 
 //your code here
 
+let resultingNames = allNames.filter(function(nombre){
+    if (nombre[0] == "R"){
+        return nombre;
+    }
+});
+
+
 console.log(resultingNames);
+

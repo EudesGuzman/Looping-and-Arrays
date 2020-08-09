@@ -5,4 +5,8 @@ contact = {
 }
 for(key in contact){
     // Code goes here
-}
+   let x = [];
+   x.push(key + " : " + contact[key]);
+
+} 
+console.log(contact);

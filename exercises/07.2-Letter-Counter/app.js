@@ -3,4 +3,16 @@ let counts = {};
 
 // your code here
 
-console.log(counts);
+
+for( let index in par){
+    let min = par[index];
+    // console.log(min);
+    counts[min]!==undefined ? counts[min]++ : counts[min]=1;
+     
+    
+}
+
+console.log(counts)
+
+
+
